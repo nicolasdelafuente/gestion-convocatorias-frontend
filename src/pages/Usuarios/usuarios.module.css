@@ -1,0 +1,19 @@
+.listado {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  /*max-width: 800px;  /*o lo que ocupe 5 cards*/
+  width: 100%;
+}
+
+.container-listado {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px
+  /*align-items: center;  /*Centra todo el contenido horizontalmente */
+}
+
+.container-listado > h2 {
+    margin-bottom: 20px;
+    margin-top: 20px
+}

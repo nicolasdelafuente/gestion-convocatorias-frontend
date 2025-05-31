@@ -1,0 +1,68 @@
+
+.btn-convocatoria {
+    display: flex;
+    background-color: #06A3C9;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 5em;
+    height: 40px;
+    width: 80%;
+    border: none;
+    align-items: center;
+    box-shadow:  0px 1px rgb(0.1 0.1 0.1);
+    color: #ffff;
+    padding: 1.5rem 0;
+}
+
+.btn-convocatoria:hover {
+    background-color: #15b6df !important;
+    
+}
+
+.btn-convocatoria i {
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.btn-inscribirse {
+    display: flex;
+    width: 25%;
+    border-radius: 15px;
+    justify-content: center;
+    margin-top: 1em;
+    background-color: #15b6df;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.421);
+}
+
+
+.btn-inscribirse:hover {
+    background-color: #1193b3 !important;
+    
+}
+
+
+
+
+
+.btn-sin-convocatoria {
+    display: flex;
+    background-color: #06A3C9;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 5em;
+    height: 40px;
+    width: 50%;
+    border: none;
+    align-items: center;
+    box-shadow:  0px 1px rgb(0.1 0.1 0.1);
+    color: #ffff;
+}
+
+.btn-sin-convocatoria:hover {
+    background-color: #15b6df !important;
+    
+}
+
+.btn-sin-convocatoria i {
+    margin: 0;
+}

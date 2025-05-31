@@ -1,0 +1,120 @@
+.card-convocatoria {
+    width: 500px;
+    background-color: #56A42C !important;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    background-color: aliceblue;
+}
+
+.btn-card-convocatoria {
+    display: flex;
+    justify-content: end;
+}
+
+.custom-modal {
+  max-width: 800px;
+}
+
+.custom-modal-header {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.convocatoria-descripcion {
+  font-size: 14px;
+  color: #555;
+}
+
+.convocatoria-fechas {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.fecha-fin-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  padding: 4px;
+  width: 150px;
+}
+
+.convocatoria-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.convocatoria-table th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  text-align: left;
+}
+
+.convocatoria-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.btn-cerrar {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-eliminar {
+  background-color: #f90000;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-cerrar:hover {
+  background-color: #45a049;
+}
+
+.confirmation-modal {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.confirmation-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-aceptar {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-no-cambiar {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

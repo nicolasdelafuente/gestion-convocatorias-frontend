@@ -1,0 +1,27 @@
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    color: #4a5568;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    font-size: 1.2rem;
+}
+
+.back-button:hover {
+    color: #6bb012
+}
+
+.back-button-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.back-button:focus {
+    outline: 2px solid #4a5568;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
